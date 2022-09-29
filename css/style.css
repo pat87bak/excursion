@@ -1,16 +1,53 @@
 /* Css reset */
-html, body, body * {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
 }
 
 
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 
+body {
+    background-color: #000;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+
+header {
+    margin: 3em 2em;
+}
+
+header h1 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 1em;
+}
+
+p>a {
+    color: aquamarine;
+    font-size: 18px;
+}
+
+header video {
+    margin-top: 3em;
+}
